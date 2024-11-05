@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: beige;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.calculator{
+    background-color:rgb(49, 49, 49); 
+    padding: 40px;
+    border-radius: 14px;
+    height: 90%;
+    width: 28%;
+}
+.calculator form input{
+    border: 0;
+    outline: 0;
+    color: antiquewhite;
+    margin: 15px;
+    padding: 30px;
+    width: 105px;
+    height: 105px;
+    border-radius: 10px;
+    box-shadow: -5px -5px 15px rgba(255, 255, 255, 0.1);
+    background-color: transparent;
+    cursor: pointer;
+
+}
+ form .rubi{
+   
+    justify-content: flex-end;
+    display: flex;
+
+    margin: 20px, 10px;
+        
+}
+ form .rubi input {
+        align-items: right;
+        flex: 1;
+        height: 150px;
+        font-size: 45px;
+        box-shadow: none;
+}
+form input.pra{
+    width: 233px;
+
+ }
+form input:hover{
+    background-color: rgb(31, 31, 30);
+}
+form input.AD{
+    background-color: rgb(194, 124, 45);
+   
+}
+form input.AD:hover{
+    background-color: rgb(140, 85, 23);
+   
+}
