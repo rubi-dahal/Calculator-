@@ -16,7 +16,7 @@
 }
 .calculator{
     background-color:rgb(49, 49, 49); 
-    padding: 40px;
+    padding: 25px;
     border-radius: 14px;
     height: 90%;
     width: 28%;
@@ -25,10 +25,10 @@
     border: 0;
     outline: 0;
     color: antiquewhite;
-    margin: 15px;
-    padding: 30px;
-    width: 105px;
-    height: 105px;
+    margin: 8px;
+    padding:  5px;
+    width: 75px;
+    height: 75px;
     border-radius: 10px;
     box-shadow: -5px -5px 15px rgba(255, 255, 255, 0.1);
     background-color: transparent;
@@ -40,18 +40,18 @@
     justify-content: flex-end;
     display: flex;
 
-    margin: 20px, 10px;
+    margin: 10px, 5px;
         
 }
  form .rubi input {
         align-items: right;
         flex: 1;
-        height: 150px;
+        height: 95px;
         font-size: 45px;
         box-shadow: none;
 }
 form input.pra{
-    width: 233px;
+    width: 165px;
 
  }
 form input:hover{
