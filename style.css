@@ -18,8 +18,9 @@
     background-color:rgb(49, 49, 49); 
     padding: 25px;
     border-radius: 14px;
-    height: 90%;
-    width: 28%;
+    height: fit-content;
+    width: fit-content;
+    /* max-width: 100%; */
 }
 .calculator form input{
     border: 0;
